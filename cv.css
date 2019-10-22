@@ -1,0 +1,207 @@
+.page {
+    width: 75%;
+    margin: auto;
+    font-size: 16px;
+    font-family: Tahoma, sans-serif;
+}
+.infopage {
+    height: 250px;
+
+
+}
+.info {
+    float: left;
+}
+.info p{
+    margin-left: 30px;
+    color: rgb(68, 63, 63);
+}
+.photo {
+    float: inherit;
+}
+.section {
+    width: 500px;
+    margin-bottom: 50px;
+    text-align: justify;
+    background-color: forestgreen;
+}
+.année {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.année li {
+    margin-bottom: 50px;
+}
+.information {
+    float: 150px;
+    margin-left: 200px;
+    
+}
+strong {
+    font-size: 30px;
+}
+h2 {
+    font-size: 28px;
+    color: goldenrod;;
+    text-transform: uppercase;
+    border-bottom: 3px solid #3388DD;
+    text-align: center;
+}
+.durée {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+}
+.titre {
+    font-weight: bold;
+    font-size: 20px;
+}
+#forma-année li{
+    margin-bottom: 50px;
+}
+strong {
+    font-size:  26px;
+    background: rgb(25, 175, 118);
+    color: rgb(85, 77, 62);
+    margin-left: 75px;
+    text-overflow: ellipsis;
+}
+#forma-formation p {
+    margin-bottom: 70px;
+    margin-left: 10px;
+    color: rgb(6, 15, 29);
+    text-transform: capitalize;
+}
+#formation p {
+    margin-bottom: 40px;
+    color: rgb(4, 44, 24);
+
+}
+li {
+    margin-bottom: 28px;
+    color: darkgray;
+
+}
+
+#info li {
+    margin-bottom: 28px;
+    color: darkgray;
+}
+#info .durée {
+    color: darkkhaki;
+}
+span #durée{
+     color: crimson;
+}
+#info2 li {
+    margin-bottom: 41px;
+}
+body {
+    background-color: lightgreen;
+}
+#forma1 {
+    color: rgb(4, 44, 24);
+}
+#informa2 {
+    color: rgb(4, 44, 24);
+
+}
+label[for] {
+    margin-left: 20px;
+}
+input {
+    margin-left: 20px;
+}
+input[type=text]{
+    margin-left: 32px;
+}
+button{
+    margin-left: 105px;
+}
+label{
+    color: darkgray;
+}
+
+
+
+/* Responsive Navigation styles begin here */
+
+nav > input,
+.nav-button {
+  display: none; /* hidden on large screens */
+}
+
+/* small screens styles */
+@media (max-width: 767px) {
+ .nav-inner {
+   position: absolute;
+   width: 70vw;  
+   transform: translateX(-100%) translateZ(0);
+   transition: transform .2s;
+   will-change: transform;
+  }
+  /* here's goes the slide effect */
+  input:checked ~ .nav-inner {
+    transform: translateX(0);
+  }
+
+  /* Button deco */
+  .nav-button {
+    display: block;
+    position: absolute;
+    top: 1rem; right: 1rem;
+    z-index: 1;
+    height: 3.5rem; width: 3.5rem;
+    background-color: transparent;
+    background-image: linear-gradient(to right, #333, #333),
+      linear-gradient(to right, #333, #333),
+      linear-gradient(to right, #333, #333);
+    background-position: center top, center, center bottom;
+    background-repeat: no-repeat;
+    background-size: 3.5rem .9rem;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+  }
+}
+
+/* Global deco */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6em;
+  font-family: arial, sans-serif;
+}
+a {
+  color: #fff;
+}
+nav a {
+  display: block;
+  padding: .7em;
+  margin-left: 2px;
+  text-decoration: none;
+  background: #777;
+  
+}
+nav #menuFixe {
+    margin-left: 30%;
+} 
+h1 {
+    margin-left: 1rem;
+    color: #333;
+  }
+  .main, footer {
+    padding: 2rem;
+    background-color: #eee;
+    color: #333;
+  }
+  
